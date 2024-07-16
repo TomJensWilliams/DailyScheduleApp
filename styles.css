@@ -1,0 +1,43 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#all-columns {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#column-one {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: red;
+}
+
+#column-two {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: blue;
+}
+
+#column-three {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: yellow;
+}
+
+#column-four {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: green;
+}
